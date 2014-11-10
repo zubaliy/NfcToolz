@@ -100,7 +100,7 @@ public class MainActivity extends Activity {
         Intent calIntent = new Intent(Intent.ACTION_INSERT);
         calIntent.setType("vnd.android.cursor.item/event");
         calIntent.putExtra(Events.TITLE, "Finish your work");
-        calIntent.putExtra(Events.DESCRIPTION, "I already worked 8 hours. It is enough for today. I have to finish "
+        calIntent.putExtra(Events.DESCRIPTION, "I already worked 8 hours. It is enough for to day. I have to finish "
                 + "my work.");
 
 
